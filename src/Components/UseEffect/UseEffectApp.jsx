@@ -26,4 +26,4 @@ const Cards = ()=> {
   )
 }
 
-export default UseEffectApp
+export default Cards
