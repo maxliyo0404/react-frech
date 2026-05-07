@@ -5,7 +5,7 @@ import UseEffectApp from "./Components/UseEffectApp"
 function App() {
   return (
      <>
-     
+     <UseEffectApp/>
      </>
   )
 }
