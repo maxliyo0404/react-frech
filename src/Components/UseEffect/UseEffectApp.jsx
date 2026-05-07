@@ -1,11 +1,13 @@
 import "./UseEffectApp.css";
 import React, { useState } from 'react'
 
-function UseEffectApp() {
+const Cards = ()=> {
 
     const [data, setData] = useState([]);
 
-    const useEffekt(data, setData)
+    const useEffekt(() => {
+        fetch
+    })
   return (
    <div className="cards">
      {data.map(el =>
