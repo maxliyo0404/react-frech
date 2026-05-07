@@ -13,6 +13,7 @@
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     text-align: center;
+    box-shadow: ;
     &:hover{
        transform: scale(0.8);
     }
