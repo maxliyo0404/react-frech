@@ -12,7 +12,10 @@
     border: 2px solid gray;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    transform: scale(0.8);
+    &:hover{
+       transform: scale(0.8);
+    }
+   
 }
 .rasm{
     max-width: 100%;
