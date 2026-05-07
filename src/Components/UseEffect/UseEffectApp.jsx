@@ -1,5 +1,5 @@
 import "./UseEffectApp.css";
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Cards = ()=> {
 
@@ -14,12 +14,12 @@ const Cards = ()=> {
     },[]);
   return (
    <div className="cards">
-     {data.map((el) =>{
+     {data.map((el) =>(
         <div className="card" key={el}>
             <img src={el.avatar} alt="" />
             <h1>{el.name}</h1>
         </div>
-     }
+     )
 
      )}
    </div>
