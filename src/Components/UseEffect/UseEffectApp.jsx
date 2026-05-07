@@ -15,7 +15,9 @@ const Cards = ()=> {
   return (
    <div className="cards">
      {data.map((el) =>{
-        
+        <div className="card" key={el}>
+            <img src={el.avatar} alt="{" />
+        </div>
      }
 
      )}
