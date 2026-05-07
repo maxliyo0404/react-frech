@@ -5,7 +5,7 @@ const Cards = ()=> {
 
     const [data, setData] = useState([]);
 
-    useEffekt(() => {
+    useEffect(() => {
         fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Students")
         .then(data => data.json())
         .then(data =>{
@@ -23,7 +23,7 @@ const Cards = ()=> {
 
      )}
    </div>
-  )
-}
+  );
+};
 
 export default Cards
