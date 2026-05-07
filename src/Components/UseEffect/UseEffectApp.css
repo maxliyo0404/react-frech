@@ -6,3 +6,9 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
+.card{
+    max-width: 100%;
+}
+.card{
+    max-width: 100%;
+}
