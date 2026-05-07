@@ -5,7 +5,11 @@ function UseEffectApp() {
 
     const [data, setData] = useState([]);
   return (
-    
+   <div className="cards">
+     {data.map(el =>
+        
+     )}
+   </div>
   )
 }
 
