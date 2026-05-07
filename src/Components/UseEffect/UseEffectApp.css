@@ -12,6 +12,7 @@
     border: 2px solid gray;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    text-align: center;
     &:hover{
        transform: scale(0.8);
     }
@@ -25,4 +26,5 @@
 .title{
     font-size: 24px;
     color: #fff;
+    
 }
