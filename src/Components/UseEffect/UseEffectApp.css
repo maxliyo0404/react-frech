@@ -6,6 +6,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin-top: 50px;
+    padding: 20px;
 }
 .card{
     max-width: 100%;
@@ -27,6 +28,6 @@
 }
 .title{
     font-size: 24px;
-    color: #fff;
+    color:black;
     
 }
